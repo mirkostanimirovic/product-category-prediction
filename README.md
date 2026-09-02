@@ -34,3 +34,40 @@ U terminalu pokrenuti:
 
 ```bash
 pip install pandas scikit-learn joblib jupyter
+
+### 2. Treniranje modela
+
+U terminalu pokrenuti:
+
+python train_model.py
+
+Skripta učitava podatke, priprema ih, trenira LinearSVC model i čuva model i TF-IDF vektorizator u `data` folderu.
+
+### 3. Testiranje modela
+
+U terminalu pokrenuti:
+
+python predict_category.py
+
+Program omogućava unos naziva proizvoda i prikazuje predviđenu kategoriju.
+
+Primer:
+
+Naziv proizvoda: Apple iPhone 15 Pro
+Predviđena kategorija: Mobile Phones
+
+Za završetak programa unesite:
+
+exit
+
+## Rezultati
+
+Testirana su dva modela mašinskog učenja.
+
+Konačni LinearSVC model ostvario je tačnost od približno 96.67% na test skupu.
+
+## Notebook
+
+Detaljna analiza podataka, čišćenje, treniranje, evaluacija i poređenje modela prikazani su u:
+
+`notebooks/product_category_prediction.ipynb`
