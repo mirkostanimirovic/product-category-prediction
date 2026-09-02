@@ -14,7 +14,7 @@ Kao konačni model izabran je LinearSVC, koji je ostvario tačnost od približno
 - `data/products_cleaned.csv` – očišćeni podaci
 - `data/product_category_model.pkl` – sačuvani LinearSVC model
 - `data/tfidf_vectorizer.pkl` – sačuvani TF-IDF vektorizator
-- `product_category_prediction.ipynb` – analiza podataka, čišćenje, treniranje i evaluacija modela
+- `notebooks/product_category_prediction.ipynb` – analiza podataka, čišćenje, treniranje i evaluacija modela
 - `train_model.py` – treniranje i čuvanje modela
 - `predict_category.py` – interaktivno predviđanje kategorije proizvoda
 
